@@ -224,10 +224,57 @@ public class BorderLayoutDemo {
 
 		});
 		
+		cin.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e){
 
+				if(label.getText().equals("0")){
+					label.setText("5");
+				}else{
+					label.setText(label.getText() + "5");
+				}
+			}
 
+		});
+		
+		se.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e){
 
+				if(label.getText().equals("0")){
+					label.setText("6");
+				}else{
+					label.setText(label.getText() + "6");
+				}
+			}
 
+		});
+		
+		un.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e){
+
+				if(label.getText().equals("0")){
+					label.setText("1");
+				}else{
+					label.setText(label.getText() + "1");
+				}
+			}
+
+		});
+
+		dos.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e){
+
+				if(label.getText().equals("0")){
+					label.setText("2");
+				}else{
+					label.setText(label.getText() + "2");
+				}
+			}
+
+		});
 
 
 

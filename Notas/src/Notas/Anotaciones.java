@@ -16,7 +16,7 @@ public static void Notas(String[] args){
 }
 // par o impar:
 
-            int y = 9;
+          /*  int y = 9;
             
             if(y % 2 == 0){
             	//par
@@ -25,7 +25,7 @@ public static void Notas(String[] args){
             	
             	//impar
   //2 (multiplo de ___ en este caso, 2 )          	
-            }
+            */
             	
 //___________________________________________________________________________________________________________________________
             
@@ -34,7 +34,7 @@ public static void Notas(String[] args){
             //if
             //condicional que es super facil y todos saben que hace
             
-            double h = 5;
+            /*double h = 5;
             
             //cosa que quieres cambiar entre parentesis
             if(h == 5){
@@ -43,7 +43,7 @@ public static void Notas(String[] args){
             	//lo contrario
             }
             //algo	
-//_____________________________________________________________________________________________________________________________
+//_____________________________________________________________________________________________________________________________*/
             
         //Try y Catch
             
@@ -53,7 +53,7 @@ public static void Notas(String[] args){
            //---------- 
             //Variables
             String num = "Por favor introduce un double";
-            double c = 8;
+            double c = 8;{
            //----------- 
             
             //Accion!
@@ -64,31 +64,48 @@ public static void Notas(String[] args){
 			}catch(java.lang.NumberFormatException e){
 				System.out.println("error eso no es un numero");
 				
-		//Ejecuta y veras!
+			}
+				
+				
+//__________________________________________________________________________________________________________________________________________________________
 				
             
+            // while
+				//constante basica
+				// hace que mientras algo este presente, hara algo.
+				
+		//codigo:		//while(c == -595975950){
+					
+				}
+            //__________________________________________________________________________________________________________________________________________________
+				
+            //    \n
+            
+            // sirve para poner cosas en otra linea, pero en el mismo mensaje.
+				
+//____________________________________________________________________________________________________________________________________________________________________________
+            
+            
+            //Joptionpane
+            // para poner una pregunta, escribir showInputDialog
+            //para poner un mensaje, escribir showMessageDialog.
+            
+            
+            
+            //JOptionPane.showMessageDialog(null, h, "Info",JOptionPane.INFORMATION_MESSAGE);
+            
+            
+   //_______________________________________________________________________________________________________________________________________________________________________         
+            
+            
+            
+            //Integer.MIN_VALUE = menor numero posible
             
             
             
             
             
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+			 
+
 }     	
-}

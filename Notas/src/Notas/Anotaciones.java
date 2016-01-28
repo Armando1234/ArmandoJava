@@ -101,6 +101,29 @@ public static void Notas(String[] args){
             
             //Integer.MIN_VALUE = menor numero posible
             
+  //_______________________________________________________________________________________________________________________________________________________________________________
+            
+            //Matemaaaaaaaaaaaaaaticas!
+            
+            
+            //Math.sqrt();        raiz cuadrada
+            //int                 numero entero
+            //double              numero con decimales
+            // + - * /            mas, menos, por, entre
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             

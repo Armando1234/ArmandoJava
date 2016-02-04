@@ -4,7 +4,14 @@ import javax.swing.JOptionPane;
 
 public class Ejercicio4 {
 	public static void main(String[] args){
+
+		/*
+		int[] miArray = {2,5,7};
 		
+		miArray[1] = 90;
+		JOptionPane.showMessageDialog(null, "" + miArray[1], "Info",JOptionPane.INFORMATION_MESSAGE);
+		
+		*/
 		int a = 1;
 		int b = 2;
 		int c = 3;

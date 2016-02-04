@@ -25,6 +25,9 @@ public class Lib {
 				C = Integer.parseInt(JOptionPane.showInputDialog(null, message, "Info",JOptionPane.INFORMATION_MESSAGE));
 			}catch(java.lang.NumberFormatException e){
 				JOptionPane.showMessageDialog (null, bronca , "Info",JOptionPane.INFORMATION_MESSAGE);
+
+
+
 			}
 		}
 		return C;
@@ -57,6 +60,66 @@ public class Lib {
 
 	}
 
+	public static boolean tiempo(int hora, int minuto, int segundo) {
 
 
+		if(hora < 24 && minuto < 59 && segundo < 59){
+			if(hora > -1 && minuto > -1 && segundo > -1){
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+
+
+
+
+	public static void getString(String message){
+		int C = 466874613;
+
+		while(C == 466874613){
+
+			C = Integer.parseInt(JOptionPane.showInputDialog(null, message, "Info",JOptionPane.INFORMATION_MESSAGE));
+
+
+
+		}
+	}
+
+
+
+
+	public static void mes(int mes) {
+
+		if(mes > 12 && mes > -1 ){
+			String peta = "Eso no es un numero de mes";
+			JOptionPane.showMessageDialog(null,peta, "Info",JOptionPane.INFORMATION_MESSAGE);
+		}else{
+			
+        String[] ArrayMeses = {"No hay mes, ", "Es Enero, ","Es Febrero,  ", "Es Marzo, ", "Es Abril, ", "Es Mayo, ","Es Junio, ","Es Julio, ","Es Agosto, ", "Es Septiembre, ", "Es Octubre, ", "Es Noviembre, ","Es Diciembre, "};
+        String[] ArrayDias = {"Cero dias","31 dias","28 dias","31 dias","30 dias","31 dias","30 dias","31 dias","31 dias","30 dias","31 dias","30 dias","31 dias"};
+        JOptionPane.showMessageDialog(null, ArrayMeses[mes] + ArrayDias[mes], "Info",JOptionPane.INFORMATION_MESSAGE);
+
+		}
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

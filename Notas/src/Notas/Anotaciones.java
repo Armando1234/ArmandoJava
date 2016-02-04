@@ -43,6 +43,11 @@ public static void Notas(String[] args){
             	//lo contrario
             }
             //algo	
+             * 
+             * 
+             * 
+             * 
+             //Para poner dos cosas en el mismo if se usa &&
 //_____________________________________________________________________________________________________________________________*/
             
         //Try y Catch
@@ -109,7 +114,7 @@ public static void Notas(String[] args){
             //Math.sqrt();        raiz cuadrada
             //int                 numero entero
             //double              numero con decimales
-            // + - * /            mas, menos, por, entre
+            // + - * / %        mas, menos, por, entre, modulo
             
             
             

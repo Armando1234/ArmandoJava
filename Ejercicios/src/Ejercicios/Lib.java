@@ -102,14 +102,17 @@ public class Lib {
         String[] ArrayDias = {"Cero dias","31 dias","28 dias","31 dias","30 dias","31 dias","30 dias","31 dias","31 dias","30 dias","31 dias","30 dias","31 dias"};
         JOptionPane.showMessageDialog(null, ArrayMeses[mes] + ArrayDias[mes], "Info",JOptionPane.INFORMATION_MESSAGE);
 
+        
+        
+        
+        
+        
+   
 		}
 	}
+	
+	
 }
-
-
-
-
-
 
 
 

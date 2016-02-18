@@ -12,6 +12,13 @@ public static void Notas(String[] args){
 	
 	//Codigo actualmente activo: Try y Catch
 	
+	//_____________________________________________________________________________
+	
+	
+	//Sacar algo por consola
+	//System.out.println();   - syso + ctrl espacio -
+
+	
 //___________________________________________________________________________________________________________________________
 }
 // par o impar:
@@ -41,6 +48,11 @@ public static void Notas(String[] args){
             	
             }else{
             	//lo contrario
+            	 
+            	 
+            	 // Para poner o = || (alt gr + 1)
+            	 
+            	
             }
             //algo	
              * 
@@ -65,7 +77,7 @@ public static void Notas(String[] args){
         	try{
 				c = Double.parseDouble(JOptionPane.showInputDialog(null, num, "Info",JOptionPane.INFORMATION_MESSAGE));
 				
-	        // Entre los parentesis del catch se pone el nombre del error, te aparece abajo
+	        // Entre los parentesis del catch se pone el nombre del error, te aparece abajo en la consola
 			}catch(java.lang.NumberFormatException e){
 				System.out.println("error eso no es un numero");
 				
@@ -117,9 +129,29 @@ public static void Notas(String[] args){
             // + - * / %        mas, menos, por, entre, modulo
             
             
+          //_______________________________________________________________________________________________________________________________________________________________________________
+             
             
+            /* CHAR (caracter)
+              
+              s = variable string
+              
+              coger un caracter      
+              char c = s.charAt(posicion del caracter en el texto)
+              
+              
+              coger el valor(en numeros) del caracter             
+              int cint = ((int)c);
+              
+              (Hacer syso para sacarlo por consola)
+              
+              
+              despues, usar el numero para comprobar cosas
+         
+          
+             */
             
-            
+ //_________________________________________________________________________________________________________________________________________________________________________________           
             
             
             

@@ -155,7 +155,47 @@ public static void Notas(String[] args){
             
             
             
-            
+            /* For
+             
+             tres partes: 1 variable (i), 2 limite (ejemplo : i < 10), 3 i++.
+             
+             ex: for(int i=0; i < 100; i++;){
+             
+             System.out.println:(a + o)
+             }
+              
+             
+              
+              
+              
+              
+              
+              
+             
+              
+              
+              
+              
+              
+              
+              
+             */
+             
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                         
             
             
             

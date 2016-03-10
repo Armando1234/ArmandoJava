@@ -76,16 +76,9 @@ public class Lib {
 
 
 
-	public static void getString(String message){
-		int C = 466874613;
-
-		while(C == 466874613){
-
-			C = Integer.parseInt(JOptionPane.showInputDialog(null, message, "Info",JOptionPane.INFORMATION_MESSAGE));
-
-
-
-		}
+	public static String getString(String message){
+		
+		return JOptionPane.showInputDialog(null, message, "Info",JOptionPane.INFORMATION_MESSAGE);
 	}
 
 

@@ -1,11 +1,9 @@
 package Ejercicios;
 
-import javax.swing.JOptionPane;
-
 public class Ejercicio2 {
 
 
-	public static void main(String[] args){
+	public static void main(String[] args) throws InterruptedException{
 
 
 		int x = 1000;
@@ -26,7 +24,11 @@ public class Ejercicio2 {
 		String message4 = "y es: " + y;
 		String message5 = "n es: " + n;
 		String message6 = "m es: " + m;
-		JOptionPane.showMessageDialog(null, message2, "Info",JOptionPane.INFORMATION_MESSAGE);
+		//JOptionPane.showMessageDialog(null, message2, "Info",JOptionPane.INFORMATION_MESSAGE);
+		
+		System.out.println("hola");
+		Thread.sleep(2000);
+		System.out.println("adios");
 		
 	}
 }

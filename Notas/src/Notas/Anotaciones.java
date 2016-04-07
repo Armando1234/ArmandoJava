@@ -163,6 +163,9 @@ public static void Notas(String[] args){
              
              System.out.println:(a + o)
              }
+             
+             
+             un for = un while comprimido
               
              
               
@@ -171,7 +174,15 @@ public static void Notas(String[] args){
               
               
               
+_________________________________________________________________________________________________________________-
+
              
+             
+             wait
+             
+             Thread.sleep(2000);
+
+             para esperar un ratito y dejar a la persona pensar.
               
               
               

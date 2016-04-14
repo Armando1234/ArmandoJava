@@ -55,8 +55,8 @@ public class Panel extends JPanel {
 	}
 
 	private void generarExplosion(){
-		int xExplosion =(int) Math.random()*2000;
-		int yExplosion =(int) Math.random()*600;
+		int xExplosion =(int) (Math.random()*2000);
+		int yExplosion =(int) (Math.random()*600);
 		for(int i=0; i<1440; i++){
 			double rad = (float) Math.toRadians(i);
 

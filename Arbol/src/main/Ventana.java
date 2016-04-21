@@ -1,5 +1,7 @@
 package main;
 
+import java.awt.Color;
+
 import javax.swing.JFrame;
 
 public class Ventana extends JFrame{
@@ -11,6 +13,7 @@ public class Ventana extends JFrame{
 		super.setResizable(false);
 		super.setContentPane(new Panel());
 		super.setVisible(true);
+	
 		
 	}
 

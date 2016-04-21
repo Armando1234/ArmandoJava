@@ -2,6 +2,7 @@ package main;
 
 
 
+import java.awt.Color;
 import java.awt.Graphics;
 
 import javax.swing.JPanel;
@@ -35,9 +36,10 @@ public class Panel extends JPanel {
 	@Override
 	public void paint(Graphics g){
 		super.paint(g);
-		
+		g.setColor(Color.WHITE);
 		a.dibujar(g);
 		a.rotar();
+		super.setBackground(Color.BLACK);
 	}
 	
 	

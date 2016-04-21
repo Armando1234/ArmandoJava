@@ -1,5 +1,6 @@
 package main;
 
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Polygon;
 
@@ -16,6 +17,8 @@ public class Arbol {
 
 	private Arbol r1;
 	private Arbol r2;
+
+	private long tini=System.currentTimeMillis();
 
 	public Arbol(Punto pIni, Punto pFin) {
 		this.pIni = pIni;
@@ -61,8 +64,13 @@ public class Arbol {
 		tronco.addPoint((int)p2.x, (int)p2.y);
 		tronco.addPoint((int)p3.x, (int)p3.y);
 		tronco.addPoint((int)p4.x, (int)p4.y);
-
+		
+		int r = (int) Math.max(Math.min(255, ((GRADOS%720)/720.0)*255),0);
+		int bb = (int) Math.max(Math.min(255, b%255),0);
+		b=b+0.0001f;
+		g.setColor(new Color(255 ,255,255));
 		g.fillPolygon(tronco);
+		
 		
 		if(r1 != null){
 			r1.dibujar(g);
@@ -74,10 +82,10 @@ public class Arbol {
 		
 		}
 	}
-	
+	static float b =0;
 	
 	public void rotar(){
-		GRADOS= (float) (GRADOS+0.2);
+		GRADOS = (float) ((tini-System.currentTimeMillis())/(1000.0/6));
 		generarHijos();
 	}
 	

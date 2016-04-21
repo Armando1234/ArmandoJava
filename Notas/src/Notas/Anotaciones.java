@@ -185,12 +185,40 @@ ________________________________________________________________________________
              para esperar un ratito y dejar a la persona pensar.
               
               
+__________________________________________________________________________________________________________________________________________________
+
+  
+  Arrays
+  un array - una variable grande
+  
+  	crear array =	int[] miarray = new int [0];
+  	
+  	coger sitio de un array = miarray[1]= 5;
+    Empieza por 0 !
+    
+    Guardar sumas en un array:
+    
+    int suma=0;
+		for(int puntero = 0;puntero <5;puntero++){
+			suma = suma + array[puntero];
+		}
+  	
+  	Guardar automaticamente
+  	
+  	int[]array = {1,2,4,7,23,5,78,};
+  	
+  	
+
               
-              
-              
+________________________________________________________________________________________________________________-
+
+supress warnings - sin advertencias
+
+@SuppressWarnings("unused")
               
               
              */
+
              
                           
                           

@@ -88,7 +88,7 @@ public static void Notas(String[] args){
 				
             
             // while
-				//constante basica
+				//bucle basico
 				// hace que mientras algo este presente, hara algo.
 				
 		//codigo:		//while(c == -595975950){
@@ -191,7 +191,7 @@ ________________________________________________________________________________
   Arrays
   un array - una variable grande
   
-  	crear array =	int[] miarray = new int [0];
+  	crear array =	int[] miarray = new int [numero de plazas del array];
   	
   	coger sitio de un array = miarray[1]= 5;
     Empieza por 0 !
@@ -216,7 +216,13 @@ supress warnings - sin advertencias
 
 @SuppressWarnings("unused")
               
-              
+__________________________________________________________________________________________________________________---
+
+        @Override
+        
+        sobrescribir lo que la consola tiene por defecto
+        
+___________________________________________________________________________________________________________________
              */
 
              

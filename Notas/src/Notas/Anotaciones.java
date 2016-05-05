@@ -216,7 +216,15 @@ supress warnings - sin advertencias
 
 @SuppressWarnings("unused")
               
+__________________________________________________________________________________________________________________
+
               
+              Math.random
+              
+              coge numeros aleatorios en doubles.
+              Un int aleatorio:
+              
+              int variable = (int)Math.random()*|numero de ejemplo|;
              */
 
              
